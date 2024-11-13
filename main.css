@@ -16,10 +16,17 @@ a:focus, a:hover {
 	transition-duration: 0.2s;
 	transition-property: background;
 }
+*{
+	margin: 5px;
+	box-sizing: border-box;
+}
 
 body {
 	font-family: 'Noto Serif', serif;
 	font-size: 18px;
+	background-color: skyblue;
+	text-align: center;
+	
 }
 
 h1, h2 {
@@ -39,10 +46,14 @@ h2 {
 
 header {
 	text-align: center;
+
 }
 
 main {
-
+	background-color: #89A3B6;
+	min-height: 500px;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 p {
@@ -59,13 +70,23 @@ p {
 }
 
 #footer-container {
-	
+	background-color: #1F4864;
+	min-height: 150px;
 }
 
 #header-container {
+	background-color: #044C80;
+	min-height: 150px;
 
 }
 
 #main-container {
 
+}
+
+aside{
+	background-color: #DEE6EC;
+}
+nav{
+	background-color: darkgray;
 }
