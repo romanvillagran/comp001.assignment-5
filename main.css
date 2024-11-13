@@ -27,7 +27,7 @@ body {
 	background-color: skyblue;
 	text-align: center;
 	display: flex;
-	
+	flex-direction: column;
 }
 
 h1, h2 {
@@ -46,15 +46,12 @@ h2 {
 }
 
 header {
-	text-align: center;
-
+	
 }
 
 main {
 	background-color: #89A3B6;
-	min-height: 500px;
-	display: flex;
-	flex-flow: row wrap;
+
 }
 
 p {
@@ -72,12 +69,10 @@ p {
 
 #footer-container {
 	background-color: #1F4864;
-	min-height: 150px;
 }
 
 #header-container {
 	background-color: #044C80;
-	min-height: 150px;
 
 }
 
