@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700|Roboto+Condensed:400,700|Roboto+Mono&display=swap');
-/*
+
 	font-family: 'Roboto Condensed', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 	font-family: 'Noto Serif', serif;
-*/
+
 
 a:link, a:visited {
 	color: blue;
@@ -28,6 +28,7 @@ body {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+    min-height: 100vh;
 }
 
 h1, h2 {
@@ -46,12 +47,15 @@ h2 {
 }
 
 header {
-	
+	padding: 2em 0;
+	background-color: #044C80;
+    color: white;
+
 }
 
 main {
 	background-color: #89A3B6;
-
+	padding: 1em 0 1em 0;
 }
 
 p {
@@ -64,15 +68,15 @@ p {
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
-
+	
 }
 
 #footer-container {
 	background-color: #1F4864;
+	padding: 1em;
 }
 
 #header-container {
-	background-color: #044C80;
 
 }
 
@@ -82,7 +86,9 @@ p {
 
 aside{
 	background-color: #DEE6EC;
+	padding: 1em;
 }
 nav{
 	background-color: darkgray;
+	padding: .3em;
 }
