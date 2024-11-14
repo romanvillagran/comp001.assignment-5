@@ -60,6 +60,10 @@ main {
     flex: 1;
 }
 
+main > section {
+    padding: 1em;
+}
+
 p {
 	line-height: 140%;
 	margin-bottom: 1em;
@@ -89,8 +93,10 @@ p {
 aside{
 	background-color: #DEE6EC;
 	padding: 1em;
+    width: 20%;
 }
 nav{
 	background-color: darkgray;
 	padding: .3em;
+    width: 20%;
 }
