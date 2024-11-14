@@ -56,7 +56,6 @@ header {
 main {
 	background-color: #89A3B6;
 	padding: 1em 0;
-    display: flex;
     flex: 1;
 }
 
