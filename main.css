@@ -80,6 +80,8 @@ p {
 #footer-container {
 	background-color: #1F4864;
 	padding: 1em;
+    color: white;
+    text-align: center;
 }
 
 #header-container {
