@@ -100,3 +100,10 @@ nav{
 	padding: .3em;
     width: 20%;
 }
+
+section{
+    background-color: white;
+    flex: 1;
+    padding: 1em;
+    text-align: left;
+}
