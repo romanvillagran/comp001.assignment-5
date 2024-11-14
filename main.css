@@ -109,3 +109,8 @@ section{
     padding: 1em;
     text-align: left;
 }
+
+#main-container{
+    display: flex;
+    flex: 1;
+}
