@@ -10,40 +10,40 @@ a:link, a:visited {
 }
 
 a:focus, a:hover {
-	background-color: #ddddff; /*  */
-	border-radius: 5px; /*  */
-	text-decoration: underline; /*  */
-	transition-duration: 0.2s; /*  */
-	transition-property: background; /*  */
+	background-color: #ddddff; /* changes background color to white (i guess thats what it looks like to me) on hover/focus */
+	border-radius: 5px; /* rounds the corners of the link when you hover your curser over it  */
+	text-decoration: underline; /* underlines the text when you hover over the link with your curser  */
+	transition-duration: 0.2s; /* a transition change, lasting 0.2 seconds */
+	transition-property: background; /* only the background will transition */
 }
 *{
-	margin: 5px; /*  */
-	box-sizing: border-box; /*  */
+	margin: 5px; /* sets the margins of all elements */
+	box-sizing: border-box; /* Ensures padding and borders are included in the element's total width/height */
 }
 
 body {
-	font-family: 'Noto Serif', serif; /*  */
-	font-size: 18px; /*  */
-	background-color: skyblue;/*  */
-	text-align: center;/*  */
-	display: flex;/*  */
-	flex-direction: column;/*  */
-    min-height: 100vh;/*  */
+	font-family: 'Noto Serif', serif; /* font for the text */
+	font-size: 18px; /* the size of the font */
+	background-color: skyblue;/* changes the background to a skyblue */
+	text-align: center;/* centers the text in the body */
+	display: flex;/* uses flexbox for layout */
+	flex-direction: column;/* stacks the child element vertical */
+    min-height: 100vh;/* make sure that the body takes up 100% of what your able to see */
 }
 
 h1, h2 {
-	font-family: 'Roboto Condensed', sans-serif; /*  */
-	letter-spacing: .05em;/*  */
-	margin: 1.5rem auto;/*  */
-	text-align: center;	/*  */
+	font-family: 'Roboto Condensed', sans-serif; /* sets the font for h1 and h2 to sans serif */
+	letter-spacing: .05em;/* adds a slight space between letters */
+	margin: 1.5rem auto;/* adds margins around the heading */
+	text-align: center;	/* center the text */
 }
 
 h1 {
-	font-size: 3rem;/*  */
+	font-size: 3rem;/* sets font size */
 }
 
 h2 {
-	font-size: 2.25rem;/*  */
+	font-size: 2.25rem;/* sets font size */
 }
 
 header {
