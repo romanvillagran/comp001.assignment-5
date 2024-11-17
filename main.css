@@ -47,68 +47,68 @@ h2 {
 }
 
 header {
-	padding: 2em 0;/*  */
-	background-color: #044C80; /*  */
-    color: white;/*  */
+	padding: 2em 0;/* adds a 2em padding to the top and bottom of the header */
+	background-color: #044C80; /* sets the background color to dark blue */
+    color: white;/* sets the text color in the header to white */
 
 }
 
 main {
-	background-color: white; /*  */
-	padding: 1em 0;/*  */
-    flex: 1;/*  */
+	background-color: white; /* sets the background color of the main content to white */
+	padding: 1em 0;/* adds 1em padding to the top and bottom */
+    flex: 1;/* allows the main area to expand and take up available space */
 }
 
 main > section {
-    padding: 1em;/*  */
+    padding: 1em;/* adds 1em padding inside each section */
 }
 
 p {
-	line-height: 140%;/*  */
-	margin-bottom: 1em;/*  */
+	line-height: 140%;/* sets line height to 140% for so anyone could read it better */
+	margin-bottom: 1em;/* adds a margin below each paragraph */
 }
 
 #intro {
-	font-size: 22px;/*  */
+	font-size: 22px;/* sets font size */
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
-	
+	/* not being used  */
 }
 
 #footer-container {
-	background-color: #1F4864; /*  */
-	padding: 1em;/*  */
-    color: white;/*  */
-    text-align: center;/*  */
+	background-color: #1F4864; /* sets the background to the footer to a whatever the color is  */
+	padding: 1em;/* adds 1em padding inside the footer */
+    color: white;/* sets the text color inside the footer to white */
+    text-align: center;/* centers the text in the footer */
 }
 
 #header-container {
-
+	/* not being used */
 }
 
 #main-container {
-
+	/* not being used */
 }
 
 aside{
-	background-color: #DEE6EC;/*  */
-	padding: 1em;/*  */
-    width: 20%;/*  */
+	background-color: #DEE6EC;/* sets the background the i think white */
+	padding: 1em;/* adds 1em padding inside the aside */
+    width: 20%;/* sets the width of the aside to 20% */
 }
 nav{
-	background-color: darkgray;/*  */
-	padding: .3em;/*  */
-    width: 20%;/*  */
+	background-color: darkgray;/* sets the background to a dark grey */
+	padding: .3em;/* adds padding inside the nav */
+    width: 20%;/* sets the width of the nav to 20% */
 }
 section{
-    background-color: lightblue;/*  */
-    padding: 1em;/*  */
-    flex: 1;/*  */
-    text-align: left; /*  */
+    background-color: lightblue;/* sets the background to a lightblue */
+    padding: 1em;/* adds padding inside each section */
+    flex: 1;/* allows the section to expand and  take up available space */
+    text-align: left; /* aligns the text to the left */
 }
 
 #main-container{
-    display: flex;/*  */
-    flex: 1;/*  */
+    display: flex;/* used flexbox layout for the container */
+    flex: 1;/* allows the main container to expand and take up available space */
 }
