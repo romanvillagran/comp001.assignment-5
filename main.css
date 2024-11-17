@@ -6,70 +6,70 @@
 
 
 a:link, a:visited {
-	color: rgb(208, 232, 23);
+	color: rgb(208, 232, 23); /* color of the link will be yellow */
 }
 
 a:focus, a:hover {
-	background-color: #ddddff;
-	border-radius: 5px;
-	text-decoration: underline;
-	transition-duration: 0.2s;
-	transition-property: background;
+	background-color: #ddddff; /*  */
+	border-radius: 5px; /*  */
+	text-decoration: underline; /*  */
+	transition-duration: 0.2s; /*  */
+	transition-property: background; /*  */
 }
 *{
-	margin: 5px;
-	box-sizing: border-box;
+	margin: 5px; /*  */
+	box-sizing: border-box; /*  */
 }
 
 body {
-	font-family: 'Noto Serif', serif;
-	font-size: 18px;
-	background-color: skyblue;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-    min-height: 100vh;
+	font-family: 'Noto Serif', serif; /*  */
+	font-size: 18px; /*  */
+	background-color: skyblue;/*  */
+	text-align: center;/*  */
+	display: flex;/*  */
+	flex-direction: column;/*  */
+    min-height: 100vh;/*  */
 }
 
 h1, h2 {
-	font-family: 'Roboto Condensed', sans-serif;
-	letter-spacing: .05em;
-	margin: 1.5rem auto;
-	text-align: center;	
+	font-family: 'Roboto Condensed', sans-serif; /*  */
+	letter-spacing: .05em;/*  */
+	margin: 1.5rem auto;/*  */
+	text-align: center;	/*  */
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 3rem;/*  */
 }
 
 h2 {
-	font-size: 2.25rem;
+	font-size: 2.25rem;/*  */
 }
 
 header {
-	padding: 2em 0;
-	background-color: #044C80;
-    color: white;
+	padding: 2em 0;/*  */
+	background-color: #044C80; /*  */
+    color: white;/*  */
 
 }
 
 main {
-	background-color: white;
-	padding: 1em 0;
-    flex: 1;
+	background-color: white; /*  */
+	padding: 1em 0;/*  */
+    flex: 1;/*  */
 }
 
 main > section {
-    padding: 1em;
+    padding: 1em;/*  */
 }
 
 p {
-	line-height: 140%;
-	margin-bottom: 1em;
+	line-height: 140%;/*  */
+	margin-bottom: 1em;/*  */
 }
 
 #intro {
-	font-size: 22px;
+	font-size: 22px;/*  */
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
@@ -77,10 +77,10 @@ p {
 }
 
 #footer-container {
-	background-color: #1F4864;
-	padding: 1em;
-    color: white;
-    text-align: center;
+	background-color: #1F4864; /*  */
+	padding: 1em;/*  */
+    color: white;/*  */
+    text-align: center;/*  */
 }
 
 #header-container {
@@ -92,23 +92,23 @@ p {
 }
 
 aside{
-	background-color: #DEE6EC;
-	padding: 1em;
-    width: 20%;
+	background-color: #DEE6EC;/*  */
+	padding: 1em;/*  */
+    width: 20%;/*  */
 }
 nav{
-	background-color: darkgray;
-	padding: .3em;
-    width: 20%;
+	background-color: darkgray;/*  */
+	padding: .3em;/*  */
+    width: 20%;/*  */
 }
 section{
-    background-color: lightblue;
-    padding: 1em;
-    flex: 1;
-    text-align: left;
+    background-color: lightblue;/*  */
+    padding: 1em;/*  */
+    flex: 1;/*  */
+    text-align: left; /*  */
 }
 
 #main-container{
-    display: flex;
-    flex: 1;
+    display: flex;/*  */
+    flex: 1;/*  */
 }
