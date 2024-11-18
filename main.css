@@ -55,13 +55,10 @@ header {
 
 main {
 	background-color: white; /* sets the background color of the main content to white */
-	padding: 1em 0;/* adds 1em padding to the top and bottom */
-    flex: 1;/* allows the main area to expand and take up available space */
+	padding: 1em;/* adds 1em padding to the top and bottom */
+    grid-area: main;/* this places the main in the "main" area of the grid */
 }
 
-main > section {
-    padding: 1em;/* adds 1em padding inside each section */
-}
 
 p {
 	line-height: 140%;/* sets line height to 140% for so anyone could read it better */
@@ -88,7 +85,7 @@ p {
 }
 
 #main-container {
-	/* not being used */
+
 }
 
 aside{
