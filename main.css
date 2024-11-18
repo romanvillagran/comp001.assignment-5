@@ -26,8 +26,6 @@ body {
 	font-size: 18px; /* the size of the font */
 	background-color: skyblue;/* changes the background to a skyblue */
 	text-align: center;/* centers the text in the body */
-	display: flex;/* uses flexbox for layout */
-	flex-direction: column;/* stacks the child element vertical */
     min-height: 100vh;/* make sure that the body takes up 100% of what your able to see */
 }
 
@@ -50,13 +48,13 @@ header {
 	padding: 2em 0;/* adds a 2em padding to the top and bottom of the header */
 	background-color: #044C80; /* sets the background color to dark blue */
     color: white;/* sets the text color in the header to white */
-
+	
 }
 
 main {
 	background-color: white; /* sets the background color of the main content to white */
 	padding: 1em;/* adds 1em padding to the top and bottom */
-    grid-area: main;/* this places the main in the "main" area of the grid */
+	width: 50%;
 }
 
 
@@ -78,6 +76,7 @@ p {
 	padding: 1em;/* adds 1em padding inside the footer */
     color: white;/* sets the text color inside the footer to white */
     text-align: center;/* centers the text in the footer */
+	width: 100%;/* makes sure the footer spans the full width*/
 }
 
 #header-container {
@@ -88,12 +87,14 @@ p {
 	display: grid;/* uses the grid layout for the main container */
 	grid-template-columns: 1fr 2fr 1fr;/* adds 3 columns that take up a little bit of available space*/
 	gap: 25px;/* space between the columns */
+	display: flex;/* used flexbox layout for the container */
+    flex: 1;/* allows the main container to expand and take up available space */
 }
 
 aside{
 	background-color: #DEE6EC;/* sets the background the i think white */
 	padding: 1em;/* adds 1em padding inside the aside */
-    width: 20%;/* sets the width of the aside to 20% */
+    width: 25%;/* sets the width of the aside to 20% */
 }
 nav{
 	background-color: darkgray;/* sets the background to a dark grey */
@@ -105,9 +106,4 @@ section{
     padding: 1em;/* adds padding inside each section */
     flex: 1;/* allows the section to expand and  take up available space */
     text-align: left; /* aligns the text to the left */
-}
-
-#main-container{
-    display: flex;/* used flexbox layout for the container */
-    flex: 1;/* allows the main container to expand and take up available space */
 }
