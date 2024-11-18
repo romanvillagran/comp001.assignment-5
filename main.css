@@ -85,7 +85,9 @@ p {
 }
 
 #main-container {
-
+	display: grid;/* uses the grid layout for the main container */
+	grid-template-columns: 1fr 2fr 1fr;/* adds 3 columns that take up a little bit of available space*/
+	gap: 25px;/* space between the columns */
 }
 
 aside{
