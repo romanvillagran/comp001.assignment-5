@@ -48,7 +48,7 @@ header {
 	padding: 2em 0;/* adds a 2em padding to the top and bottom of the header */
 	background-color: #044C80; /* sets the background color to dark blue */
     color: white;/* sets the text color in the header to white */
-	
+	width: 100%;/* make sure thea the header spans the full width */
 }
 
 main {
